@@ -1,0 +1,29 @@
+TREE:
+ -non linear ds
+ -collection of nodes in hierarchy from root node to subsequent nodes(parent/leaf node)
+ -may b empty or have child nodes
+TERMS:
+ Node — structure which contain a value or condition,
+  or represent a separate data structure.
+ Internal node — A node with at least one child.
+ Path − the sequence of nodes along the edges of a tree.
+ Root − The node at the top of the tree
+ only one root per tree and one path from the root node to any node.
+ Parent − Any node except the root node has one edge upward to a node called parent.
+ Child −node below a given node connected by its edge downward is called its child node.
+ Leaf − does not have any child node
+ Subtree − Subtree represents the descendants of a node.
+ Height — no of edges on the "longest path" between a node and a descendant leaf.
+ Breadth — The number of leaves.
+
+ ****
+ Visiting − checking the value of a node when control is on the node.
+ Traversing − passing through nodes in a specific order.
+
+ Levels − the generation of a node.
+          root node is at level 0,
+          then its next child node is at level 1,
+          its grandchild is at level 2, and so on.
+
+ keys − Key represents a value of a node
+        based on which a search operation is to be carried out for a node.
