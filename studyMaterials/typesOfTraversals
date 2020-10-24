@@ -1,0 +1,27 @@
+Tree traversal:
+ -tree search
+ -process of visiting (checking and/or updating) each node in a tree data structure,
+  exactly once
+DFS:
+ -starts with the root node and first visits all nodes of one branch as deep as possible of the chosen Node
+ -all nodes in the length are visited then backtracking to top then continue visiting other nodes
+                                              100
+                                          /         \
+                                       50           150
+                                      / \         /      \
+                                    49   25     145       160
+                                    |   /  \    /  \      /  \
+                                    5  20   35  101 149 155  165
+
+DFS:
+    100->50->49->5
+    25->20
+    35
+    150->145->101
+    149
+    160->155
+    165
+    each child of root is traversed to its depth
+    and then backtracking to next child of root then doing the same process.
+
+                                  
