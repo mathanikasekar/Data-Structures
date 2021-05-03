@@ -1,0 +1,51 @@
+Real time examples:
+
+ array:
+  string processing
+  save contacts in phone
+  image processing
+
+linkedlist:
+ image viewer
+ circularly-music playlist
+
+stack:
+ UNDO operation
+ evaluationg expressions,
+ paranthesis evaluation,
+ recursion
+
+queue:
+ operating system-job scheduling
+ sending n number of mails. they store in queue and then send one by one
+ ticket booking
+
+graph:
+ GPS's tracking
+
+tree:
+ domain name server(DNS)
+
+hash table:
+ to store data in database
+ browsers
+ to store filename and filepath
+
+heap:
+ priority queue
+
+TREES:
+ general tree-to store something in hierarchy
+             -file system in computer
+             -documents
+                                                documents
+                                                /      \
+                                      education          certificates
+                                        /  \             /          \
+                               academics    placements  scl         clg
+ binary tree:
+
+ Syntax Tree - Constructed by compilers and (implicitly) calculators to parse expressions.
+ Treap - Randomized data structure used in wireless networking and memory allocation.
+ T-tree - Though most databases use some form of B-tree to store data on the drive,
+ databases which keep all (most) their data in memory often use T-trees to do so.

@@ -1,0 +1,14 @@
+NOTATIONS:
+Infix    a+b
+Prefix   +ab
+Postfix  ab+
+
+infix:
+ a+b*c+d
+prefix:
+  a+ *bc +d--> +a*bc +d--> ++a*bcd
+postfix:
+  a+ bc* +d-->abc*++d-->abc*+d+
+(a+b)*(c+d)
++ab * +cd-->*+ab +cd-->*+ab+cd
+ab+ * cd+-->ab+cd+*

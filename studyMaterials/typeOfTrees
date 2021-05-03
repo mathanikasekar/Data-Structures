@@ -1,0 +1,7 @@
+Type of trees:
+ general tree:
+  any no of children
+ binary tree:
+  at most 2 nodes(light child/right child)
+complete binary tree:
+ no child or 2 child
